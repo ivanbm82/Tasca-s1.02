@@ -22,7 +22,7 @@ public class Entrada {
 				System.out.println("Error de formato");
 				variable=false;
 			}
-			String limpieza=input.nextLine();
+			input.nextLine();
 			
 		}while(!variable);
 		
@@ -45,7 +45,7 @@ public class Entrada {
 				System.out.println("Error de formato");
 				variable=false;			
 			}
-			String limpieza=input.nextLine();
+			input.nextLine();
 			
 		}while(!variable);
 		
@@ -68,7 +68,7 @@ public class Entrada {
 				System.out.println("Error de formato");
 				variable=false;			
 			}
-			String limpieza=input.nextLine();
+			input.nextLine();
 		}while(!variable);
 		
 		return num;
@@ -90,7 +90,7 @@ public class Entrada {
 				System.out.println("Error de formato");
 				variable=false;
 			}
-			String limpieza=input.nextLine();
+			input.nextLine();
 		}while(!variable);
 
 		return num;
